@@ -1,11 +1,19 @@
 {
   "name": "psp.shared",
   "description": "common UI assets for prosper.com rails apps",
-  "dependencies": {},
+  "dependencies": {
+    "psp.shared": "https://github.com/omancipator/psp.shared.git"
+  },
   "devDependencies": {
     "lodash": "~2.4.1"
   },
   "private": true,
   "ignore": [
-  ]
+  ],
+  "install": {
+    "path": {
+      "js": "app/assets/javascripts"
+    }
+  },
+
 }
