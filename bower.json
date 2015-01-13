@@ -9,11 +9,5 @@
   },
   "private": true,
   "ignore": [
-  ],
-  "install": {
-    "path": {
-      "js": "app/assets/javascripts"
-    }
-  },
-
+  ]
 }
