@@ -1,0 +1,11 @@
+{
+  "name": "psp.shared",
+  "description": "common UI assets for prosper.com rails apps",
+  "dependencies": {},
+  "devDependencies": {
+    "lodash": "~2.4.1"
+  },
+  "private": true,
+  "ignore": [
+  ]
+}
