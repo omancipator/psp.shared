@@ -1,0 +1,38 @@
+.partner {
+  background-color: $white;
+  padding: 1rem;
+
+  span {
+    font-size: $fontSizeXSmall;
+    vertical-align: text-top;
+    padding-right: 0.12rem;
+    line-height: 1.6;
+
+    &.lendingtree {
+      line-height: 1.5;
+    }
+  }
+
+}
+
+@media #{$medium-up} {
+  .partner {
+    span {
+      font-size: $fontSizeXXSmall;
+      line-height: 1.8;
+    }
+    .partner-logo {
+      width: 6.5rem;
+    }
+  }
+}
+
+.hero {
+  &.partner-heading {
+    padding-top: 5rem;
+    .prosper-logo {
+      margin-top: 1rem;
+      width: 8.25rem;
+    }
+  }
+}

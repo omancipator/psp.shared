@@ -1,0 +1,42 @@
+/*  ==================================================
+    Basic HTML Tags
+    ==================================================  */
+
+body { 
+  font-size: $fontSizeMedium;
+  font-family: $fontFamily;
+}
+
+h1 {
+  font-size: $fontSizeXXXXLarge;
+  line-height: $lineHeightNormal;
+}
+
+p {
+  font-size: $fontSizeMedium;
+  line-height: $lineHeightXXTaller;
+  letter-spacing: $spacingTighter;
+}
+
+/*  ==================================================
+    Buttons and Links
+    ==================================================  */
+
+.check-rate-button {
+  background: $colorBackgroundFour image-url('shared/themes/bridge/arrow_right_white.svg') no-repeat 95% 7px;
+  background-size: 1rem;
+  color: $colorTextOne;
+  border: solid 0.1875rem $colorBorderFour;
+  border-radius: 1.875rem;
+  font-size: $fontSizeXXSmall;
+  font-weight: $fontWeightBold;
+  text-transform: inherit;
+  width: 13rem;
+  height: auto;
+  line-height: 2.4rem;
+  margin: 0 auto 1rem;
+
+  a {
+    margin-left: -10%;
+  }
+}

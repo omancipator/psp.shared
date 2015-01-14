@@ -1,0 +1,160 @@
+.security {
+  padding: 1rem 2rem;
+
+  .lock-image {
+    margin: 0 auto;
+    background: image-url('shared/icon_lock.svg') no-repeat;
+    background-size: 1.75rem;
+    padding-bottom: 1rem;
+    width: 1.75rem;
+    height: 3rem;
+  }
+
+  a.show-less, .learn-more {
+    color: $darkGray;
+    text-decoration: underline;
+    font-family: $fontFamily;
+    font-size: $fontSizeXXXXXSmall;
+  }
+
+  .accordion-navigation>a, .accordion dd>.content  {
+    background: none;
+    padding: 0;
+
+    &:hover {
+      background: none;
+    }
+
+    p {
+      font-family: $fontFamily;
+      color: $darkGray;
+      font-size: $fontSizeXXXXXSmall;
+      line-height: $lineHeightNormal;
+      margin-bottom: 1rem;
+    }
+
+    &.show-less {
+      display: none;
+      padding-top: 1rem;
+    }
+
+    .first {
+      padding-left: 0;
+    }
+
+    .middle {
+      padding: 0 7.5px;
+    }
+
+    .last {
+      padding-right: 0;
+    }
+
+    .icons {
+      background-color: $lightGray;
+      text-align: center;
+      padding: 1rem 0.6rem;
+      height: 5.5rem;
+      margin-bottom: 1rem;
+
+      &.more-info {
+        font-size: 0.6rem;
+        line-height: 0.8rem;
+        color: $darkGray;
+
+        img {
+          width: 1.3rem;
+          padding-bottom: 0.5rem;
+        }
+      }
+
+      &.privacy-info {
+        padding-top: 1.5rem;
+
+        img {
+          height: 2rem;
+        }
+
+        #truste {
+          max-height: 2rem;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  .accordion-navigation.active {
+    .content {
+      background: none;
+    }
+  }
+
+  .accordion-navigation.active>a, .accordion dd.active>a {
+    background: none;
+
+    .learn-more {
+      display: none;
+    }
+
+    &.show-less {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .for-more-info-icons {
+    padding: 0;
+  }
+  .privacy-and-security-icons {
+    padding: 0;
+  }
+
+}
+
+@media #{$small-up} {
+  .security {
+    background-color: $colorBackgroundOne;
+  }
+}
+
+@media #{$medium-up} {
+  .security {
+    background-color: $colorBackgroundTwo;
+    padding: 1rem 3rem;
+    .lock-image {
+      background: image-url('shared/icon_lock_dark.svg') no-repeat;
+    }
+    .accordion {
+      max-width: 54rem;
+    }
+    .for-more-info-icons {
+      padding-right: 1rem;
+    }
+    .privacy-and-security-icons {
+      padding-left: 1rem;
+    }
+    .accordion-navigation>a, .accordion dd>.content  {
+      .icons {
+        background: #fff;
+        &.privacy-info {
+          #truste {
+            height: auto;
+          }
+        }  
+      }
+    }  
+  }
+}
+
+@media #{$large-up} { 
+  .security {
+    .for-more-info-icons {
+      padding-right: 4rem;
+    }
+    .privacy-and-security-icons {
+      padding-left: 4rem;
+    }
+
+  }
+}
+

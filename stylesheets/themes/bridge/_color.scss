@@ -1,0 +1,66 @@
+/*  ==================================================
+    COLLOQUIAL COLOR NAMES
+    ==================================================  */
+
+	$cyan: #4aa9db;
+	$darkBlue: #09064d;
+	$brightGreen: #6ac20a;
+	$brightRed: #d0021b;
+
+	/* Grays and Neutrals */
+
+	$darkGray: #414042;
+	$mediumGray: #979797;
+	$lightGray: #f7f7f7;
+
+	$black: #000;
+	$white: #fff;
+
+
+/*  ==================================================
+    COLOR NAME MAPPINGS
+    ==================================================  */
+
+
+  /* Base Color Names */
+
+  $colorBaseOne: $cyan;
+  $colorBaseTwo: $darkBlue;
+  $colorBaseThree: $darkGray;
+  $colorBaseFour: $mediumGray;
+
+  $colorAttentionOne: $brightGreen;
+  $colorAttentionTwo: $brightRed;
+
+  $colorMutedOne: $lightGray;
+
+  /* Text Color Names */
+
+  $colorTextOne: $darkGray;
+  $colorTextTwo: $white;
+  $colorTextThree: $mediumGray;
+  $colorTextFour: $cyan;
+  $colorTextFive: $darkBlue;
+  $colorTextSix: $black;
+
+  /* Background Color Names */
+
+  $colorBackgroundOne: $white;
+  $colorBackgroundTwo: $cyan;
+  $colorBackgroundThree: $lightGray;
+  $colorBackgroundFour: $mediumGray;
+  $colorBackgroundFive: $darkBlue;
+
+  /* Border Color Names */
+
+  $colorBorderOne: $darkGray;
+  $colorBorderTwo: $mediumGray;
+  $colorBorderThree: $darkBlue;
+  $colorBorderFour: $cyan;
+  $colorBorderFive: $lightGray;
+  $colorBorderSix: $white;
+
+  /* Other Color Names */
+
+  $colorSuccess: $brightGreen;
+  $colorError: $brightRed;
