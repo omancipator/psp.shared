@@ -9,10 +9,13 @@ test app (prosper directives):
 get 'test' => 'test#seed'
 
 * Dev Installation:
+-- 'sudo npm install -g grunt-cli`
 -- `cp .env.example .env` which copies environment variables used in development
 -- `npm install`
 -- `bundle install`
 -- `bower install`
+
+
 -- `grunt`
 
 * Starting Dev Servers

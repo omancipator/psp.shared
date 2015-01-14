@@ -2,20 +2,19 @@
   "name": "psp.shared",
   "description": "common UI assets for prosper.com rails apps",
   "dependencies": {
-    "angular-ui-router": "0.2.13",
-    "lodash": "2.4.1",
+
     "angular": "1.3.5",
-    "angular-mocks": "",
-    "foundation": "",
-    "angular-foundation": "",
+    "angular-foundation": "0.5.1",
+    "angular-mocks": "1.3.8",
+    "angular-ui-router": "0.2.13",
+    "foundation": "5.5.0",
     "jasmine": "2.1.2",
+    "lodash": "2.4.1",
+
 
     "psp.shared": "https://github.com/omancipator/psp.shared.git"
   },
-  "resolutions": {
-    "angular": "1.3.5",
-    "jquery": "2.1.1"
-  },
+
   "devDependencies": {
 
   },
