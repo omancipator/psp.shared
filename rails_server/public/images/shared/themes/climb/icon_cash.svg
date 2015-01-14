@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="102px" viewBox="0 0 200 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 250 + Oval 14 + $ 11 + Rectangle 250 + Oval 14 + $ 9 + Rectangle 250 + Oval 14 + $ 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Rectangle-250-+-Oval-14-+-$-11-+-Rectangle-250-+-Oval-14-+-$-9-+-Rectangle-250-+-Oval-14-+-$-10" sketch:type="MSLayerGroup" transform="translate(1.000000, 0.000000)">
+            <g id="Rectangle-250-+-Oval-14-+-$-11" transform="translate(20.004136, 0.000000)">
+                <rect id="Rectangle-250" stroke="#FFFFFF" stroke-width="1.2" fill="#A7C9B6" sketch:type="MSShapeGroup" x="0" y="0" width="178.614634" height="76.5941307"></rect>
+                <ellipse id="Oval-14" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="89.3073171" cy="39.4489474" rx="28.0217886" ry="28.4598901"></ellipse>
+                <text id="$" sketch:type="MSTextLayer" font-family="Neutra Text" font-size="35.6300951" font-weight="313" fill="#4D4D4D">
+                    <tspan x="81.3688889" y="48.0711736">$</tspan>
+                </text>
+            </g>
+            <g id="Rectangle-250-+-Oval-14-+-$-9" transform="translate(9.355356, 11.604097)">
+                <rect id="Rectangle-250" stroke="#FFFFFF" stroke-width="1.2" fill="#A7C9B6" sketch:type="MSShapeGroup" x="0" y="0" width="178.614634" height="76.5941307"></rect>
+                <ellipse id="Oval-14" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="89.3073171" cy="39.4489474" rx="28.0217886" ry="28.4598901"></ellipse>
+                <text id="$" sketch:type="MSTextLayer" font-family="Neutra Text" font-size="35.6300951" font-weight="313" fill="#4D4D4D">
+                    <tspan x="81.3688889" y="48.0711736">$</tspan>
+                </text>
+            </g>
+            <g id="Rectangle-250-+-Oval-14-+-$-10" transform="translate(-0.381230, 25.208195)">
+                <rect id="Rectangle-250" stroke="#FFFFFF" stroke-width="1.2" fill="#A7C9B6" sketch:type="MSShapeGroup" x="0" y="0" width="178.614634" height="76.5941307"></rect>
+                <ellipse id="Oval-14" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="89.3073171" cy="39.4489474" rx="28.0217886" ry="28.4598901"></ellipse>
+                <text id="$" sketch:type="MSTextLayer" font-family="Neutra Text" font-size="35.6300951" font-weight="313" fill="#4D4D4D">
+                    <tspan x="81.3688889" y="48.0711736">$</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

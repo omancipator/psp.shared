@@ -2,33 +2,25 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
 
-    bowercopy: {
-      options: {
-        // Task-specific options go here
-      },
-      your_target: {
-        // Target-specific file lists and/or options go here
+    copy: {
+      main: {
+        files: [
+          // includes files within path
+          //{expand: true, src: ['path/*'], dest: 'dest/', filter: 'isFile'},
+
+          // includes files within path and its sub-directories
+          //{expand: true, src: ['path/**'], dest: 'dest/'},
+
+          // makes all src relative to cwd
+          //{expand: true, cwd: 'path/', src: ['**'], dest: 'dest/'},
+
+          // flattens results to a single level
+          //{expand: true, flatten: true, src: ['path/**'], dest: 'dest/', filter: 'isFile'},
+        ]
       }
     }
-
-
-    //jshint: {
-    //  files: ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js'],
-    //  options: {
-    //    globals: {
-    //      jQuery: true
-    //    }
-    //  }
-    //},
-    //watch: {
-    //  files: ['<%= jshint.files %>'],
-    //  tasks: ['jshint']
-    //}
   });
 
-
-  grunt.loadNpmTasks('grunt-bowercopy');
-
-  grunt.registerTask('default', ['bowercopy']);
-
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.registerTask('default', ['copy']);
 };

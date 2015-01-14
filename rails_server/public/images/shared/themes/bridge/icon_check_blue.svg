@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="32px" viewBox="0 0 30 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Checkmark 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-149.000000, -107.000000)" fill="#09064D">
+            <g id="Checkmark-2" sketch:type="MSLayerGroup" transform="translate(148.000000, 106.000000)">
+                <path d="M13.1835071,27.3942068 L26.043739,2.15458062 C26.5873914,1.08760266 27.8889477,0.666050277 28.9532339,1.20833118 C30.0249401,1.75439276 30.4404437,3.05347344 29.8978602,4.11835348 L15.7702145,31.8454194 C15.2265621,32.9123973 13.9250058,33.3339497 12.8607196,32.7916688 C12.5320783,32.6242177 12.2651436,32.385956 12.0686204,32.1053513 L1.89471845,23.5684339 C0.982214723,22.8027524 0.859784252,21.4359764 1.62757883,20.5209544 C2.40072633,19.5995531 3.75981686,19.4867918 4.67514858,20.2548463 L13.1835071,27.3942068 Z" id="Rectangle-138" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

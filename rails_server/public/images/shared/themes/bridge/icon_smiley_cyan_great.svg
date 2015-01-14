@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="101px" height="100px" viewBox="0 0 101 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>smileyGreatGray 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="smileyGreatGray-2" sketch:type="MSLayerGroup" transform="translate(1.000000, 0.000000)" fill="#4AA9DB">
+            <g id="Your_Icon" transform="translate(0.160000, 0.160000)" sketch:type="MSShapeGroup">
+                <path d="M49.6491667,-0.151666667 C22.1303333,-0.151666667 -0.182,22.16175 -0.182,49.6816667 C-0.182,77.20375 22.1303333,99.515 49.6491667,99.515 C77.1723333,99.515 99.4846667,77.20375 99.4846667,49.6816667 C99.4846667,22.16175 77.1723333,-0.151666667 49.6491667,-0.151666667 L49.6491667,-0.151666667 Z M49.6489861,91.9316667 C26.3187708,91.9316667 7.40133333,73.0154028 7.40133333,49.6816667 C7.40133333,26.3467569 26.3187708,7.43166667 49.6489861,7.43166667 C72.9862431,7.43166667 91.9013333,26.3467569 91.9013333,49.6816667 C91.9013333,73.0154028 72.9862431,91.9316667 49.6489861,91.9316667 L49.6489861,91.9316667 Z" id="Shape"></path>
+                <circle id="Oval" cx="35.38925" cy="37.5559167" r="7.22258333"></circle>
+                <circle id="Oval" cx="64.63925" cy="37.5559167" r="7.22258333"></circle>
+                <path d="M49.6513333,76.2536667 C63.0131667,76.2536667 73.8443333,67.2403333 73.8443333,56.1220833 L25.4561667,56.1220833 C25.4561667,67.23925 36.2895,76.2536667 49.6513333,76.2536667 L49.6513333,76.2536667 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,159 @@
+@import '../shared/themes/bridge/color';
+@import '../shared/themes/bridge/typography';
+@import '../shared/themes/bridge/elements';
+
+
+/*  ==================================================
+    Specific Styles for the Style Guide page only
+    ==================================================  */
+
+body {
+    background-color: $colorBackgroundTwo;
+}
+
+p { 
+
+	font-size: $fontSizeXSmall;					/* these styles override the defaults being set in _element.scss */
+	line-height: $lineHeightXXXXTaller; 
+	letter-spacing: normal;
+}
+
+h1 {
+    font-family: $fontFamily;
+  font-weight: $fontWeightBold;
+    line-height: $lineHeightXXXXXXTaller;
+    font-size: $fontSizeXXXXXLarge;
+}
+
+h2 {
+    font-size: $fontSizeXXXXLarge;
+    font-family: $fontFamily;
+}
+
+h3 {
+    font-family: $fontFamily;
+    font-size: $fontSizeLarge2;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+}
+
+.mainsection {
+    background-color: $colorBackgroundOne;
+    padding: 2rem;
+}
+
+.masterside-nav h1 {
+    font-size: $fontSizeXXXXLarge;					/* these styles override the defaults being set in _element.scss */
+    color: $colorTextTwo;
+    padding: 0.5rem;
+    line-height: 1.4em;
+}
+
+.side-nav {
+    padding: 0.5rem;
+}
+
+.side-nav h1 {
+    color: $colorTextTwo;
+}
+
+.side-nav li a:not(.button),
+.side-nav li a:not(.button):hover,
+.side-nav li a:not(.button):focus {
+    color: $colorTextTwo;
+}
+
+.sectionTitle {
+    font-family: $fontFamily;
+    font-weight: $fontWeightBold;
+    text-transform: uppercase;
+    a {
+	    color: $colorTextThree;
+    }
+}
+
+.contrastBg {
+    background: $colorBackgroundTwo;
+}
+
+/*  ==================================================
+    Color
+    ==================================================  */
+
+.colorBox {
+    padding: 1rem;
+    height: 150px;
+    color: $colorTextTwo;
+    margin-bottom: 1.0rem;
+}
+
+.colorBaseOne {	background-color: $colorBaseOne; }
+.colorBaseTwo {	background-color: $colorBaseTwo; }
+.colorBaseThree { background-color: $colorBaseThree; }
+.colorBaseFour { background-color: $colorBaseFour; }
+
+.colorAttentionOne { background-color: $colorAttentionOne; }
+.colorAttentionTwo { background-color: $colorAttentionTwo; }
+
+.colorMutedOne { 
+	background-color: $colorMutedOne;
+	color: $colorTextOne;
+}
+
+.colorTextOne { color: $colorTextOne; 
+    p {
+      font-family: $fontFamily;
+      font-weight: $fontWeightBold;
+    }
+}    
+.colorTextTwo { 
+    color: $colorTextTwo; 
+    background-color: $colorBaseThree;
+    p {
+      font-family: $fontFamily;
+      font-weight: $fontWeightBold;
+    }
+}
+.colorTextThree { color: $colorTextThree;
+    p {
+      font-family: $fontFamily;
+      font-weight: $fontWeightBold;
+    }
+}
+.colorTextFour { color: $colorTextFour;
+    p {
+      font-family: $fontFamily;
+      font-weight: $fontWeightBold;
+    }
+}
+.colorTextFive { color: $colorTextFive;
+    p {
+      font-family: $fontFamily;
+      font-weight: $fontWeightBold;
+    }
+}
+.colorTextSix { color: $colorTextSix;
+    p {
+      font-family: $fontFamily;
+      font-weight: $fontWeightBold;
+    }
+}
+
+.colorBackgroundOne { background-color: $colorBackgroundOne; color: $colorTextOne; }
+.colorBackgroundTwo { background-color: $colorBackgroundTwo; }
+.colorBackgroundThree { background-color: $colorBackgroundThree; color: $colorTextOne; }
+.colorBackgroundFour { background-color: $colorBackgroundFour; }
+.colorBackgroundFive { background-color: $colorBackgroundFive; }
+
+.colorBorderOne { border: 4px solid $colorBorderOne; color: $colorBorderOne; }
+.colorBorderTwo { border: 4px solid $colorBorderTwo; color: $colorBorderTwo; }
+.colorBorderThree { border: 4px solid $colorBorderThree; color: $colorBorderThree; }
+.colorBorderFour { border: 4px solid $colorBorderFour; color: $colorBorderFour; }
+.colorBorderFive { border: 4px solid $colorBorderFive; color: $colorTextSix; }
+
+.colorSuccess { background-color: $colorSuccess; }
+.colorError { background-color: $colorError; }
+

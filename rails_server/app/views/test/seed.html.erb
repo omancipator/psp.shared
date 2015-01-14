@@ -1,0 +1,10 @@
+<% content_for :page_head do %>
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7529532/700826/css/fonts.css" />
+  <!--<%= stylesheet_link_tag 'landing' %>-->
+<% end %>
+
+<div ng-app="seedApp" class="pr-app">
+  <div ui-view></div>
+  <%= javascript_include_tag 'seed'%>
+</div>
+
