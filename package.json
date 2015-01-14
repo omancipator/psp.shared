@@ -1,0 +1,28 @@
+{
+  "name": "prosper",
+  "version": "1.0.0",
+  "description": "== README",
+  "main": "karma_conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "4.10.7",
+    "jasmine-core": "2.1.2",
+    "jasmine-reporters": "1.0.1",
+    "karma": "0.12.25",
+    "karma-chrome-launcher": "0.1.5",
+    "karma-coverage": "0.2.6",
+    "karma-jasmine": "0.3.0",
+    "karma-jshint-preprocessor": "0.0.5",
+    "karma-ng-html2js-preprocessor": "0.1.2",
+    "karma-phantomjs-launcher": "0.1.4",
+    "protractor": "1.5.0"
+  },
+  "private": true
+}
