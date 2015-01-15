@@ -3,7 +3,7 @@
   "description": "common UI assets for prosper.com rails apps",
   "dependencies": {
 
-    "angular": "1.3.5",
+    "angular": "1.3.8",
     "angular-foundation": "0.5.1",
     "angular-mocks": "1.3.8",
     "angular-ui-router": "0.2.13",
@@ -13,7 +13,9 @@
 
     "psp.shared": "https://github.com/omancipator/psp.shared.git"
   },
-
+  "resolutions": {
+    "angular": "1.3.8"
+  },
   "devDependencies": {
 
   },
